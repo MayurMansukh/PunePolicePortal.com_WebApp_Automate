@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-2EVVVF8" name="com.bridgelabz.PunePolicePortalTest" tests="1" failures="0" timestamp="14 Jun 2021 18:13:04 GMT" time="94.283" errors="0">
+  <testcase name="portalTest" time="32.323" classname="com.bridgelabz.PunePolicePortalTest"/>
+</testsuite>

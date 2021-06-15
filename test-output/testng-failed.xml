@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="PunePolicePortal(failed)" preserve-order="false">
+    <classes>
+      <class name="com.bridgelabz.PunePolicePortalTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="portalTest"/>
+          <include name="setup"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
