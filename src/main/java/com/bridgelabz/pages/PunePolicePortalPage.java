@@ -5,6 +5,7 @@
  */
 package com.bridgelabz.pages;
 
+import com.bridgelabz.listener.CustomListener;
 import com.bridgelabz.utils.DataDrivenMethod;
 import com.bridgelabz.utils.FileUploadWithAutoItScript;
 import org.openqa.selenium.*;
@@ -13,9 +14,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+import org.testng.annotations.Listeners;
 import java.io.IOException;
 
+@Listeners(CustomListener.class)
 public class PunePolicePortalPage {
 
     WebDriver driver;
