@@ -3,7 +3,6 @@ package com.bridgelabz.base;
 import com.bridgelabz.utils.ExtentReport;
 import com.bridgelabz.utils.checkInternerConnection;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -27,7 +26,7 @@ public class Base {
         driver.get("https://blog.savaari.com/covid-travel-pass/ ");
         connection.check_internet_connectivity(); // check internet connection
         extentReport.startTest();
-        PropertyConfigurator.configure("log4j.properties");
+
     }
 
     @AfterTest

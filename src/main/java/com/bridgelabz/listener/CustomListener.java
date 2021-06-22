@@ -37,6 +37,7 @@ public class CustomListener extends TakeScreenshot implements ITestListener
     public void onTestFailure(ITestResult result) {
         System.out.println("Failure of test cases and its details are : "+result.getName());
         takeScreenshot(result.getMethod().getMethodName());
+
     }
 
     @Override

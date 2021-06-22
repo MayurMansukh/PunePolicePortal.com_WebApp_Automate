@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="49146" started-at="2021-06-14T23:43:32Z" finished-at="2021-06-14T23:44:21Z">
+  <suite name="Default Suite" duration-ms="125960" started-at="2021-06-22T19:40:06 IST" finished-at="2021-06-22T19:42:12 IST">
     <groups>
     </groups>
-    <test name="C:/Users/admin/IdeaProjects/PunePolicePortal/src/test/java/com/bridgelabz/PunePolicePortalTest.java" duration-ms="49146" started-at="2021-06-14T23:43:32Z" finished-at="2021-06-14T23:44:21Z">
+    <test name="PunePolicePortal" duration-ms="125960" started-at="2021-06-22T19:40:06 IST" finished-at="2021-06-22T19:42:12 IST">
       <class name="com.bridgelabz.PunePolicePortalTest">
-        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="14912" started-at="2021-06-14T23:43:32Z" finished-at="2021-06-14T23:43:47Z">
-        </test-method>
-        <test-method status="PASS" signature="portalTest()" name="portalTest" duration-ms="32031" started-at="2021-06-14T23:43:47Z" finished-at="2021-06-14T23:44:19Z">
-        </test-method>
-        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="2172" started-at="2021-06-14T23:44:19Z" finished-at="2021-06-14T23:44:21Z">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bridgelabz.PunePolicePortalTest@4275c20c]" name="setup" is-config="true" duration-ms="55309" started-at="2021-06-22T19:40:07 IST" finished-at="2021-06-22T19:41:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="portalTest()[pri:0, instance:com.bridgelabz.PunePolicePortalTest@4275c20c]" name="portalTest" duration-ms="64328" started-at="2021-06-22T19:41:02 IST" finished-at="2021-06-22T19:42:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portalTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.bridgelabz.PunePolicePortalTest@4275c20c]" name="teardown" is-config="true" duration-ms="5039" started-at="2021-06-22T19:42:07 IST" finished-at="2021-06-22T19:42:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.bridgelabz.PunePolicePortalTest -->
+    </test> <!-- PunePolicePortal -->
+  </suite> <!-- Default Suite -->
 </testng-results>
